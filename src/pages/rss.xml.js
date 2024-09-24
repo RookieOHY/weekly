@@ -13,7 +13,7 @@ export function GET() {
 
   return rss({
     title: '小欧周刊',
-    description: '记录工程师 RookieOHY 的不枯燥生活',
+    description: '记录工程师 RookieOHY 的不枯燥生活 feedId:61496245929664512+userId:47849132094936064',
     site: 'https://weekly.subhee.top/',
     customData: `<image><url>https://gw.alipayobjects.com/zos/k/qv/coffee-2-icon.png</url></image>`,
     items: posts.map((item) => {
